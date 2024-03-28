@@ -1,0 +1,3 @@
+Module – 5 Structuring REST API
+Q1. Create Rest API (get, post, delete, put, patch) for Task management.
+Q2. Create Rest API (get, post, delete, put, patch) for online shopping application.

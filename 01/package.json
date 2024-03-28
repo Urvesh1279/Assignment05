@@ -1,0 +1,27 @@
+{
+  "name": "task",
+  "version": "1.0.0",
+  "description": "This is Task Management App",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "task",
+    "app",
+    "node"
+  ],
+  "author": "Urvesh Patel",
+  "license": "ISC",
+  "appConfig": {
+    "port": 3000,
+    "mongoDbURL": "mongodb://localhost:27017",
+    "mongoDBName": "taskmangement"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "express": "^4.18.3",
+    "mongodb": "^6.5.0"
+  }
+}
